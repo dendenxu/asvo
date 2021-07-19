@@ -7,12 +7,11 @@
  * voxel. Used by the renderer. The equivalent in
  * OpenGL would be the input to the pixel/fragment shader.
  */
-struct VoxelData
-{
-	float3 normal;
-	float3 tangent;
-	float4 pos;
-	float2 texCoord;
-	float3 eyeVec;
-	float3 center;
+struct VoxelData {
+  float3 normal;
+  float3 tangent;
+  float4 pos;
+  float2 texCoord;
+  float3 eyeVec;
+  float3 center;
 };

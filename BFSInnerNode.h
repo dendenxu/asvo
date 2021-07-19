@@ -5,13 +5,11 @@
 /**
  * Represents an inner node of a BFSOctree.
  */
-class BFSInnerNode
-{
+class BFSInnerNode {
 public:
+  VisualData vd;
+  unsigned long int mask;
+  unsigned long int childPtr;
 
-	VisualData vd;
-	unsigned long int mask;
-	unsigned long int childPtr;
-
-	void deserialize( FILE * inFile );
+  void deserialize(FILE *inFile);
 };
